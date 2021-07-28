@@ -7,6 +7,16 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+q {
+    font-family: Helvetica;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.pdg {
+    font-size: 15px;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -677,7 +687,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -767,11 +777,11 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #333C6C;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #C8490E;
 }
 
 .tc-white {
@@ -779,7 +789,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #C8490E;
     color: #FFFFFF!important;
 }
 
@@ -822,7 +832,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
