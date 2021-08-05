@@ -17,6 +17,10 @@ q {
     font-size: 15px;
 }
 
+.chouette {
+    width: 613px;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -280,6 +284,13 @@ a:hover {
 
 .voffset-lg {
     margin-top: 80px;
+}
+
+.row-chouette {
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flex;
+    justify-content: center;
 }
 
 .row-no-gutters {
