@@ -7,6 +7,26 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.address a {
+    margin-right: 25px;
+}
+
+.address a, .address p {
+    color: white !important;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.address a:hover{
+
+}
 q {
     font-family: Helvetica;
     font-style: italic;
@@ -698,7 +718,7 @@ a {
 }
 
 p {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
