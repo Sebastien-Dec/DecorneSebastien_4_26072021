@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 15px;
 }
 
 .address a {
@@ -20,13 +21,14 @@ body {
 
 .address a, .address p {
     color: white !important;
-    font-size: 14px;
+    font-size: 18px;
     padding-top: 10px;
 }
 
-.address a:hover{
-
+.address a:hover {
+    color: rgba(255, 255, 255, 1);
 }
+
 q {
     font-family: Helvetica;
     font-style: italic;
